@@ -7,7 +7,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    flex-basis: 320px;
+
     border-bottom: 1px solid #D9FFF5;
 }
 .head__logo{
