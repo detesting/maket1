@@ -1,46 +1,26 @@
-body {
-
+.page{
+    font-family: 'TT Lakes', serif;
 }
-
+.content{
+    max-width: 1440px;
+}
 .head{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    border-bottom: 1px solid #D9FFF5;
-    object-fit: fill;
-}
-.head__logo{
+    justify-content: space-between;
+    max-height: 88px;
 
+    margin-bottom: 24px;
+    margin-top: 24px;
 
 }
-.menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    height: 30%;
-}
-.menu__button{
-    border: 1px solid white;
+.button{
     background: white;
-    display: flex;
-
+    border: 0 solid white;
+    padding: 0;
 }
-.menu__image{
-    min-width: 100%;
-    min-height: 100%;
-    flex-grow: 1;
-}
-.head__divider{
 
-
-}
-.head__repair{
-
-
-}
-.head__checkstatus{
-
+.burger{
 
 }
