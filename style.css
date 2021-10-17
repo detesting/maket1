@@ -16,7 +16,7 @@ body {
     right: 47.1%;
     top: 3.11%;
     bottom: 88.37%;
-
+    flex-basis: 50%;
 }
 .head__menu{
     box-sizing: inherit;
@@ -24,7 +24,6 @@ body {
     right: 82.5%;
     top: 4.02%;
     bottom: 89.28%;
-
 }
 .head__divider{
     box-sizing: inherit;
