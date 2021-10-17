@@ -8,7 +8,7 @@ body {
     justify-content: space-evenly;
     border-bottom: 1px solid #D9FFF5;
     box-sizing: border-box;
-    flex-basis: 100px;
+
 }
 .head__logo{
     box-sizing: inherit;
