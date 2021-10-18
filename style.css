@@ -121,6 +121,7 @@
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
+    margin-bottom: 12px;
 }
 .slidemenu__brand--state--active{
     font-size: 16px;
@@ -133,7 +134,7 @@
     padding: 8px 16px;
     background: #FFFFFF;
     flex-shrink: 0;
-
+    margin-bottom: 12px;
 }
 .slidemenu__devices{
     font-size: 16px;
@@ -143,6 +144,7 @@
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
+    margin-bottom: 12px;
 }
 .slidemenu__price{
     font-size: 16px;
@@ -152,6 +154,7 @@
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
+    margin-bottom: 12px;
 }
 .slidemenu__review{
     font-size: 16px;
@@ -161,6 +164,7 @@
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
+    margin-bottom: 12px;
 }
 .slidemenu__specialprices{
     font-size: 16px;
@@ -170,6 +174,7 @@
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
+    margin-bottom: 12px;
 }
 
 
