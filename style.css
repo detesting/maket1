@@ -187,13 +187,10 @@
 }
 
 .blog__image{
-    display: flex;
-    width: auto;
-    height: 100%;
-    flex-shrink: 0;
+
 }
 .blog__image img{
-    width: 50%;
+    width: 100%;
 }
 
 .blog__text{
