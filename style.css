@@ -183,15 +183,14 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .blog__image{
-    object-fit: cover;
-    height: 30%;
+    width: auto;
+    max-width: 100%;
 }
 .blog__text{
-    max-width: 460px;
-
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
