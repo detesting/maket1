@@ -178,6 +178,30 @@
 }
 
 
+.blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog__image{
+    object-fit: cover;
+    height: 30%;
+}
+.blog__text{
+    max-width: 460px;
+
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+
+}
+
 @media (max-width: 768px) {
     .call, .chat, .profile {
         display: none;
