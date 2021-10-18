@@ -81,6 +81,11 @@
 }
 
 .main{
+    background: #F8F8F8;
+    width: 100%;
+}
+
+.title{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -88,16 +93,84 @@
 
     padding-bottom: 24px;
     padding-top: 24px;
+    width: 100%;
+
+}
+.title__name{
+    border-left: 4px solid #41F6D7;
+    padding-left: 20px;
+    width: 100%;
 }
 
-.title{
-    padding-left: 20px;
-    border-left: 4px solid #41F6D7;
+.slidemenu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    background: inherit;
+    width: 100%;
 }
+.slidemenu__address{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: inherit;
+}
+.slidemenu__brand--state--active{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    border: 2px solid #B8FFEC;
+    margin-left: 24px;
+    border-radius: 6px;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: #FFFFFF;
+}
+.slidemenu__devices{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: inherit;
+}
+.slidemenu__price{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: inherit;
+}
+.slidemenu__review{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: inherit;
+}
+.slidemenu__specialprices{
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    letter-spacing: -0.2px;
+    padding: 8px 16px;
+    background: inherit;
+}
+
 
 @media (max-width: 768px) {
     .call, .chat, .profile {
         display: none;
+    }
+    .slidemenu{
+        overflow-y: hidden;
     }
 }
 @media (min-width: 768px) {
@@ -105,5 +178,13 @@
         border-right: 2px solid #EAEAEA;
         padding-right: 20px;
         margin-right: 12px;
+    }
+    .slidemenu{
+        overflow-y: hidden;
+    }
+}
+@media (min-width: 1120px) {
+    .slidemenu{
+        flex-wrap: wrap;
     }
 }
