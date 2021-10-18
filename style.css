@@ -111,6 +111,7 @@
     color: #7E7E82;
     background: inherit;
     width: 100%;
+
 }
 .slidemenu__address{
     font-size: 16px;
@@ -119,6 +120,7 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: inherit;
+    flex-shrink: 0;
 }
 .slidemenu__brand--state--active{
     font-size: 16px;
@@ -130,6 +132,8 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: #FFFFFF;
+    flex-shrink: 0;
+
 }
 .slidemenu__devices{
     font-size: 16px;
@@ -138,6 +142,7 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: inherit;
+    flex-shrink: 0;
 }
 .slidemenu__price{
     font-size: 16px;
@@ -146,6 +151,7 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: inherit;
+    flex-shrink: 0;
 }
 .slidemenu__review{
     font-size: 16px;
@@ -154,6 +160,7 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: inherit;
+    flex-shrink: 0;
 }
 .slidemenu__specialprices{
     font-size: 16px;
@@ -162,6 +169,7 @@
     letter-spacing: -0.2px;
     padding: 8px 16px;
     background: inherit;
+    flex-shrink: 0;
 }
 
 
