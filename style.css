@@ -7,9 +7,9 @@
 
 .page{
     font-family: 'TT Lakes', serif;
-    background: #F8F8F8;
     max-width: 1440px;
     min-width: 320px;
+    background: #F8F8F8;
 }
 .content{
     max-width: 1440px;
@@ -26,7 +26,7 @@
 
     padding-bottom: 24px;
     padding-top: 24px;
-
+    background: #FFFFFF;
     border-bottom: 1px solid #D9FFF5;
     /*margin-left: 8px;*/
     /*margin-right: 8px;*/
@@ -275,12 +275,12 @@
     .slidemenu{
         overflow-y: hidden;
     }
-    .blog__image, .blog__text, .post{
+    .blog__image, .blog__text, .blog__post{
         max-width: 100%;
     }
 
 }
-@media (max-width: 1120px) {
+@media (max-width: 1119px) {
     .burger{
         border-right: 2px solid #EAEAEA;
         padding-right: 20px;
