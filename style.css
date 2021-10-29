@@ -265,6 +265,8 @@
         display: none;
     }
     .slidemenu{
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
         overflow-x: auto;
     }
     .slidemenu::-webkit-scrollbar {
@@ -272,11 +274,7 @@
         height: 0;
         display: none !important;
     }
-    .slidemenu::-moz-viewport-scroll{
-        width: 0 !important;
-        height: 0;
-        display: none !important;
-    }
+
     .blog__image, .blog__text, .blog__post{
         background: transparent;
         max-width: 100%;
