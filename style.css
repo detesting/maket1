@@ -5,15 +5,10 @@
     box-sizing: border-box;
 }
 
-.page{
-    font-family: 'TT Lakes', serif;
-    max-width: 1440px;
-    min-width: 320px;
-    background: #F8F8F8;
-}
 .content{
-    max-width: 1440px;
     min-width: 320px;
+    font-family: 'TT Lakes', serif;
+    background: #F8F8F8;
 }
 
 .head{
@@ -22,7 +17,6 @@
     align-items: center;
     justify-content: space-between;
     max-height: 88px;
-    min-width: 320px;
 
     padding-bottom: 24px;
     padding-top: 24px;
@@ -89,8 +83,6 @@
 .main{
     background: #F8F8F8;
     width: 100%;
-    min-width: 320px;
-
 }
 
 .title{
@@ -273,7 +265,7 @@
         display: none;
     }
     .slidemenu{
-        overflow-y: hidden;
+        overflow-x: auto;
     }
     .blog__image, .blog__text, .blog__post{
         max-width: 100%;
