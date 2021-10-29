@@ -267,6 +267,12 @@
     .slidemenu{
         overflow-x: auto;
     }
+    .slidemenu::-webkit-scrollbar {
+        width: 0 !important;
+        height: 0;
+        display: none !important;
+        background: transparent;
+    }
     .blog__image, .blog__text, .blog__post{
         max-width: 100%;
     }
