@@ -265,11 +265,12 @@
         display: none;
     }
     .slidemenu{
-        -ms-overflow-style: none;
-        overflow: -moz-scrollbars-none;
-        overflow-x: auto;
+        overflow-x: scroll;
+        -ms-overflow-style: none; /*Скрывает скролл в Edge и IE*/
+        scrollbar-width: none; /*Скрывает скролл в Firefox*/
+
     }
-    .slidemenu::-webkit-scrollbar {
+    .slidemenu::-webkit-scrollbar {  /*Скрывает скролл в webkit*/
         width: 0 !important;
         height: 0;
         display: none !important;
@@ -288,7 +289,14 @@
         margin-right: 12px;
     }
     .slidemenu{
-        overflow-y: hidden;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none; /*Скрывает скролл в Firefox*/
+    }
+    .slidemenu::-webkit-scrollbar {  /*Скрывает скролл в webkit*/
+        width: 0 !important;
+        height: 0;
+        display: none !important;
     }
     .blog__image img{
         border-radius: 6px;
