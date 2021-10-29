@@ -271,9 +271,14 @@
         width: 0 !important;
         height: 0;
         display: none !important;
-        background: transparent;
+    }
+    .slidemenu::-moz-viewport-scroll{
+        width: 0 !important;
+        height: 0;
+        display: none !important;
     }
     .blog__image, .blog__text, .blog__post{
+        background: transparent;
         max-width: 100%;
     }
 
