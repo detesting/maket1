@@ -1,0 +1,81 @@
+*, *:before, *:after{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.button{
+    background: white;
+    font-family: 'TT Lakes', serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+li {
+    list-style-type: none;
+}
+
+.main-menu{
+    width: 320px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'TT Lakes', serif;
+    flex-wrap: wrap;
+}
+.header__ul{
+    display: flex;
+    justify-content: flex-start;
+    width: 320px;
+}
+.cancel{
+    padding: 23px 8px 25px 24px;
+}
+.logo{
+    padding-left: 8px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    flex-grow: 1;
+}
+.search{
+    padding-top: 23px;
+    padding-right: 24px;
+    padding-bottom: 25px;
+}
+
+.main{
+    width: inherit;
+}
+.main__ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+}
+.main__ul li{
+    width: 320px;
+    padding-left: 24px;
+    padding-top: 32px;
+}
+.main__repair{
+
+}
+.main__services{
+
+}
+.main__corporate{
+
+}
+.main__sellers{
+
+}
+.main__partners{
+
+}
+.main__producers{
+
+}
+.main__centers{
+
+}
+.main__contacts{
+
+}
