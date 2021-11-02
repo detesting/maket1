@@ -144,35 +144,11 @@ li {
     line-height: 24px;
     color: #7E7E82;
     background: inherit;
-    /*width: 100%;*/
     flex-shrink: 0;
-}
-.slidemenu__address{
-    font-size: 16px;
-    line-height: 24px;
-    color: #7E7E82;
-    letter-spacing: -0.2px;
-    padding: 8px 16px;
-    background: inherit;
-    flex-shrink: 0;
-    /*margin-bottom: 12px;*/
-}
-
-.slidemenu__brand--state--active{
-    font-size: 16px;
-    line-height: 24px;
-    color: #7E7E82;
-    border: 2px solid #B8FFEC;
     margin-left: 24px;
-    border-radius: 6px;
-    letter-spacing: -0.2px;
-    padding: 8px 16px;
-    background: #FFFFFF;
-    flex-shrink: 0;
-    /*margin-bottom: 12px;*/
 }
 
-.slidemenu__devices{
+.slidemenu li .button{
     font-size: 16px;
     line-height: 24px;
     color: #7E7E82;
@@ -180,43 +156,10 @@ li {
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
-    /*margin-bottom: 12px;*/
-}
-.slidemenu__price{
-    font-size: 16px;
-    line-height: 24px;
-    color: #7E7E82;
-    letter-spacing: -0.2px;
-    padding: 8px 16px;
-    background: inherit;
-    flex-shrink: 0;
-    /*margin-bottom: 12px;*/
 
 }
-.slidemenu__review{
-    font-size: 16px;
-    line-height: 24px;
-    color: #7E7E82;
-    letter-spacing: -0.2px;
-    padding: 8px 16px;
-    background: inherit;
-    flex-shrink: 0;
-    /*margin-bottom: 12px;*/
-}
-.slidemenu__specialprices{
-    font-size: 16px;
-    line-height: 24px;
-    color: #7E7E82;
-    letter-spacing: -0.2px;
-    padding: 8px 16px;
-    background: inherit;
-    flex-shrink: 0;
-    /*margin-bottom: 12px;*/
-}
-
-.slidemenu li:not(:first-child):hover,
-.slidemenu li:not(:first-child):focus
-{
+.slidemenu li .button:hover,
+.slidemenu li .button:focus{
     font-size: 16px;
     /*line-height: 24px;*/
     color: #7E7E82;
@@ -229,6 +172,7 @@ li {
     flex-shrink: 0;
     /*margin-bottom: 12px;*/
 }
+
 
 .blog{
     display: flex;

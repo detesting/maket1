@@ -53,9 +53,20 @@ li {
 }
 .main__ul li{
     width: 320px;
-    padding-left: 24px;
-    padding-top: 32px;
 }
+.main__ul li button{
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main__ul li .button:focus,
+.main__ul li .button:hover{
+    color: #7E7E82;
+    border-left: 4px solid #41F6D7;
+}
+
 .main__repair{
 
 }
