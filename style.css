@@ -29,9 +29,6 @@ li {
     padding-top: 24px;
     background: #FFFFFF;
     border-bottom: 1px solid #D9FFF5;
-    /*margin-left: 8px;*/
-    /*margin-right: 8px;*/
-    /*flex-basis: 104px;*/
 }
 
 .head__left{
@@ -97,11 +94,9 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     padding-bottom: 24px;
     padding-top: 24px;
     width: 100%;
-
 }
 .title__name{
     border-left: 4px solid #41F6D7;
@@ -156,23 +151,26 @@ li {
     padding: 8px 16px;
     background: inherit;
     flex-shrink: 0;
-
 }
 .slidemenu li .button:hover,
 .slidemenu li .button:focus{
     font-size: 16px;
-    /*line-height: 24px;*/
     color: #7E7E82;
     border: 2px solid #B8FFEC;
-    /*margin-left: 24px;*/
     border-radius: 6px;
     letter-spacing: -0.2px;
-    /*padding: 8px 16px;*/
     background: #FFFFFF;
     flex-shrink: 0;
-    /*margin-bottom: 12px;*/
 }
-
+.slidemenu__brand--state--active{
+    font-size: 16px;
+    color: #7E7E82;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    letter-spacing: -0.2px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+}
 
 .blog{
     display: flex;

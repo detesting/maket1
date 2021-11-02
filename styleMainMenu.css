@@ -12,6 +12,7 @@
     color: #1B1C21;
     font-weight: 500;
 }
+
 li {
     list-style-type: none;
 }
@@ -19,9 +20,12 @@ li {
 .main-menu{
     width: 320px;
     display: flex;
-    justify-content: flex-start;
     font-family: 'TT Lakes', serif;
     flex-wrap: wrap;
+    align-items: flex-start;
+}
+.header{
+    align-self: flex-start;
 }
 .header__ul{
     display: flex;
@@ -48,8 +52,9 @@ li {
 }
 .main__ul{
     display: flex;
-    flex-wrap: wrap;
     width: inherit;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 .main__ul li{
     width: 320px;
@@ -67,6 +72,10 @@ li {
     border-left: 4px solid #41F6D7;
 }
 
+.button__repair--state--active{
+    color: #7E7E82;
+    border-left: 4px solid #41F6D7;
+}
 .main__repair{
 
 }
@@ -89,5 +98,47 @@ li {
 
 }
 .main__contacts{
+}
 
+.footer{
+    align-self: flex-end;
+}
+.footer__ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer__ul li{
+    padding: 8px;
+}
+.footer__call{
+    margin-left: 16px;
+}
+.footer__email{
+    padding: 8px 8px 6px 24px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    font-weight: 500;
+}
+.footer__number{
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    padding: 6px 8px 20px 24px;
+    font-weight: 800;
+}
+.footer__languages{
+    padding: 20px 3px 32px 4px;
+}
+.footer__languages .button{
+    width: 24px;
+    height: 24px;
+}
+.footer__languages .button:hover,
+.footer__languages .button:focus{
+    color: #7E7E82;
+}
+.footer__ru--state--active{
+    color: #7E7E82;
+    margin-left: 20px;
 }
