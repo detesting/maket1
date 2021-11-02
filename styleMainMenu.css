@@ -68,8 +68,15 @@ li {
 }
 .main__ul li .button:focus,
 .main__ul li .button:hover{
-    color: #7E7E82;
+    /*color: #7E7E82;*/
     border-left: 4px solid #41F6D7;
+    transition-duration: 0.5s;
+    filter: opacity(80%);
+}
+
+.button:hover{
+    transition-duration: 0.7s;
+    filter: opacity(80%);
 }
 
 .button__repair--state--active{
