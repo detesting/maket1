@@ -168,7 +168,7 @@ li {
     border: 2px solid #B8FFEC;
     border-radius: 6px;
     letter-spacing: -0.2px;
-    background: #FFFFFF;
+    background: #FFFFFF !important;
     flex-shrink: 0;
 }
 
