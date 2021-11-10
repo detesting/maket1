@@ -17,7 +17,7 @@ a{
 }
 
 html{
-    height: 322px;
+
 }
 
 .body{
@@ -123,6 +123,31 @@ html{
 }
 .swiper-pagination-bullet {
     background-color: #DDDDDD !important;
+}
+
+.hide{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 8px 8px 8px 8px;
+}
+.hide__text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+.hide__img{
+    margin-left: 39px;
+}
+
+.showAll{
+    max-height: 100%;
+    overflow: visible;
+}
+.hideButton{
+    display: none;
 }
 
 
