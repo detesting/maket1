@@ -34,7 +34,7 @@ html{
 }
 
 .main{
-    display: block;
+    display: none;
 }
 
 .brands{
@@ -91,15 +91,17 @@ html{
 }
 
 .swiper-container{
-    display: none;
-    width: 240px;
+    max-width: 240px;
+}
+.swiper-wrapper{
+
 }
 
-@media (max-width: 767px) {
-    .swiper-container{
-        display: block;
-    }
-    .main{
-        display: none;
-    }
+@media (min-width: 767px) {
+    /*.main{*/
+    /*    display: block;*/
+    /*}*/
+    /*.swiper-container{*/
+    /*    display: none;*/
+    /*}*/
 }
