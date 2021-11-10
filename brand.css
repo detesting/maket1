@@ -104,25 +104,17 @@ html{
 .swiper-slide{
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
-    /*box-sizing: border-box;*/
     border-radius: 6px;
 
     min-width: 240px;
     height: 72px;
-    /*padding: 8px 16px 8px 16px;*/
     padding-left: 16px;
     display: flex;
     justify-content: space-between;
-    /*max-width: 240px;*/
-
-    /*margin-right: 16px;*/
-    /*margin-left: 16px;*/
-
 }
 .swiper-pagination{
     position: relative;
     top: 183px;
-
     color: #B5B6BC;
 }
 
