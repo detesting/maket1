@@ -23,6 +23,7 @@ html{
 .body{
     font-family: 'TT Lakes', serif;
     background-color: #F2F2F2;
+    min-width: 0;
 }
 
 .header{
@@ -44,7 +45,7 @@ html{
     overflow: hidden;
     min-width: 0;
 }
-.brands__brand, .swiper-slide{
+.brands__brand{
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
@@ -91,17 +92,48 @@ html{
 }
 
 .swiper-container{
-    max-width: 240px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .swiper-wrapper{
+    display: flex;
+}
+.swiper-slide{
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    /*box-sizing: border-box;*/
+    border-radius: 6px;
 
+    width: 240px;
+    height: 72px;
+    /*padding: 8px 16px 8px 16px;*/
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+
+    text-align: center;
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+.swiper-pagination{
+    position: relative;
+    top: 183px;
+
+    color: #B5B6BC;
 }
 
 @media (min-width: 767px) {
-    /*.main{*/
-    /*    display: block;*/
-    /*}*/
-    /*.swiper-container{*/
-    /*    display: none;*/
-    /*}*/
+    .main{
+        display: block;
+    }
+    .swiper-container{
+        display: none;
+    }
+    html{
+        max-height: 234px;
+    }
 }
